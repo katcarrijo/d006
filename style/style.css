@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Permanent+Marker&display=swap');
+
+:root {
+    --font1: 'Permanent Marker', cursive;
+    --font2: 'Caveat', cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    min-height: 100vh;
+    background-color: darkgray;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-family: var(--font1);
+    font-size: 7vw;
+
+}
+
+header {
+    padding-bottom: 50px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 1.8em;
+    padding-left: 30px;
+    font-family: var(--font2);
+    font-weight: bold;
+    font-size: 3.5vw;
+
+}
+
+section.image {
+    color: white;
+    background-color: rgb(75, 75, 75);
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.582);
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+
+#image01 {
+    background-image: url("../imagens/background001.jpg");
+    background-position: right center;
+
+}
+
+#image02 {
+    background-image: url("../imagens/background002.jpg");
+
+}
+
+
+section.normal {
+    background-color: white;
+    color: black;
+    padding-left: 40px;
+}
+
+
+section p {
+    padding-bottom: 2em;
+}
+
+section.image p {
+    background-color: rgba(0, 0, 0, 0.651);
+    display: inline-block;
+    padding: 10px;
+    padding-left: 15;
+    padding-right: 30px;
+}
+
+
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 4px;
+    padding-top: 10px;
+}
+
